@@ -3,5 +3,8 @@ import App from './App.jsx'
 import './index.css';
 
 createRoot(document.getElementById('root')).render(
-  <App />
+  <main>
+    <section className='main-blur'/>
+    <App />
+  </main>
 )

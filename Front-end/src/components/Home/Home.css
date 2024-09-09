@@ -1,59 +1,81 @@
 #home {
-    background-image: url("public/Image/HomePage.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    filter: blur(10px);
+    width: 80vw;
+    margin: auto;
+    padding-top: 110px;
+    /* background-color: pink; */
+    height: 90vh;
 }
 
-.home-content {
+#home>p {
+    font-size: 3vw;
     color: white;
-    text-align: center;
-    padding-top: 30px;
-    margin-top: 60px;
     font-weight: bold;
-    color: black;
 }
 
-.home-content h2 {
-    font-size: 2.2em;
-    margin-top: 10px;
+#home>.home-para{
+    font-size: calc( 3vw - 1%);
 }
 
-.home-content h1 {
-    font-size: 3.2em;
-    margin-top: 10px;
+#home>small {
+    color: white;
 }
 
-.home-content p {
-    font-size: 20px;
-}
-
-.home-content button {
+#home .home-addmission {
     background-color: transparent;
-    border: 2px solid black;
-    color: black;
-    padding: 14px 24px;
-    margin-top: 20px;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    padding: 10px;
     font-weight: bolder;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 6px;
+    transition: 0.2s;
 }
 
-.home-content button:hover {
-    background-color: black;
-    color: white;
-    transition: 0.3s;
+#home .home-addmission:hover {
+    background-color: whitesmoke;
+    color: black;
 }
 
-@media only screen and (max-width:630px) {
-    #home p {
-        color: wheat;
+.home-btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#home .home-learn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+#home .home-learn:hover {
+    background-color: whitesmoke;
+}
+
+@media  only screen and (max-width:1028px) {
+    #home>p{
+        font-size: 6vw;
+    }
+
+    #home>.home-para{
+        font-size: calc( 6vw - 2%);
+    }
+}
+
+@media  only screen and (max-width:620px) {
+    #home{
+        padding-top: 140px;
+        text-align: center;
+    }
+    #home>p{
+        font-size: 10vw;
+    }
+    .home-btn{
+        justify-content: center;
     }
 }
