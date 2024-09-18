@@ -1,1 +1,1 @@
-export const api = "http://localhost:3300"
+export const api = "https://school-website-backen-end.onrender.com"
