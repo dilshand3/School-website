@@ -1,6 +1,6 @@
-import schoolLogo from "./Image/school logo2.png";
 import HomaPage from "./Image/HomePage.jpg"
 import classroom from "./Image/classroom.jpg";
+import classroom2 from "./Image/classroom2.jpg"
 import Events from "./Image/Events.jpeg";
 import HostelMess from "./Image/HostelMess.jpeg";
 import Hostel from "./Image/Hoster.jpeg";
@@ -8,9 +8,9 @@ import Lab from "./Image/Lab.jpg";
 import Library from "./Image/Library.jpeg";
 import Sports from "./Image/Sports.jpeg";
 import Transport from "./Image/Transport.jpeg";
+import upload from "./Image/upload_area.png";
 
 export const Image = {
-    schoolLogo,
     HomaPage,
     classroom,
     Events,
@@ -19,5 +19,7 @@ export const Image = {
     Lab,
     Library,
     Sports,
-    Transport
+    Transport,
+    classroom2,
+    upload,
 }

@@ -1,0 +1,1 @@
+export const MONGDB_URL = "davschool";

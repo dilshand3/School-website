@@ -1,0 +1,30 @@
+.learnmore {
+    background-color: whitesmoke;
+    height: max-content;
+    width: 100vw;
+    padding-bottom: 30px;
+}
+
+.learnmore nav {
+    width: 100vw;
+    background-color: #002147;
+    padding: 20px;
+}
+
+nav>h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.learnmore-content {
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.learnmore p {
+    color: #002147;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}

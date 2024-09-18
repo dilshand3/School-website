@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Footer.css";
+import "./Footer.css"
 
 const Footer = () => {
   const inst = () => {
@@ -7,6 +7,7 @@ const Footer = () => {
   }
   return (
     <>
+      <>
       <section className='main-footer'>
         <section className='footer' id='footer'>
           <div className="footer-box footer-one">
@@ -43,6 +44,7 @@ const Footer = () => {
         </section>
         <p id='footer-right'>	&#169; All right reserved to DAV SCHOOL 2024 Ltd. || developed & managed by dilshan</p>
       </section>
+    </> 
     </>
   )
 }

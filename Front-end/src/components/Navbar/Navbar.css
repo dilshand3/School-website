@@ -8,6 +8,7 @@
     padding: 20px 0px;
     transition: 0.3s;
     z-index: 200;
+    top: 0;
 }
 
 .logo {
@@ -32,7 +33,12 @@
     right: 25px;
 }
 
-#navbar>i {
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar>a>i {
     font-size: 30px;
     cursor: pointer;
 }
@@ -43,7 +49,7 @@
 }
 
 .scroll-nav {
-    background-color: #221f1f;
+    background-color: #002147;
 }
 
 @media only screen and (max-width:620px) {

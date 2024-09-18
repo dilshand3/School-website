@@ -1,0 +1,77 @@
+.all-admission{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 27px;
+  justify-content: center;
+}
+.student-card{
+  border: 2px solid #002147;
+  background-color: white;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.student-card p{
+   font-weight: bold;
+   color: #002147;
+}
+
+.student-Img{
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+}
+
+.student-btn button{
+  width: 100px;
+  margin: 3px;
+  height: 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+
+#student-btn-2{
+  background-color: transparent;
+  border: 1px solid #002147;
+  transition: 0.2s;
+}
+
+#student-btn-2:hover{
+  background-color: #002147;
+  color: whitesmoke;
+}
+
+#student-btn-1{
+  background-color: #002147;
+  color: whitesmoke;
+}
+
+#student-btn-1:hover{
+  background-color: #03172e;
+ 
+}
+
+#student-btn-1 a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#student-btn-1 a:hover{
+  color:#e1dede;;
+}
+
+.no-data-img{
+  width: 80vw;
+  height: 80vh;
+  display: block;
+  margin: auto;
+}

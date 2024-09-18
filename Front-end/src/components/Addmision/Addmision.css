@@ -1,0 +1,154 @@
+.admission {
+    width: 100vw;
+    height: max-content;
+    text-align: center;
+    padding-top: 40px;
+    color: #002147;
+    background-color: #f5f5f5;
+    padding-bottom: 30px;
+}
+
+#admission>img{
+    width: 100%;
+}
+
+.admission>form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.student-name{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+}
+
+.admission .student-name>input{
+    width: 230px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.parents-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.parents-name>input{
+    width: 480px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 10px;
+}
+.label-info{
+    text-align: left;
+    margin: auto;
+    width: max-content;
+    padding: 10px 0px;
+}
+
+.student-contact{
+    display: flex;
+    gap: 20px;
+}
+
+.student-contact>input{
+    width: 230px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.label-info>.email{
+    width: 480px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.student-contact>select{
+    width: 230px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.location{
+    width: 480px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 13px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #002147;
+    color: whitesmoke;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative; /* Add this */
+}
+
+.submit-btn:hover {
+    background-color: #021a35;
+    color: #c7c7c7;
+}
+
+.submit-btn .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    position: absolute; /* Add this */
+    right: 10px; /* Add this */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+input{
+    outline: #002147;
+}
+
+.student-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.add-img-upload{
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width:730px) {
+    .student-contact{
+        flex-direction: column;
+    }
+    .student-name{
+        flex-direction: column;
+    }
+    .label-info>.email,.parents-name>input{
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav{
+    background-color: #002147;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+}
+
+.logo>span {
+    font-size: 1.8em;
+}
+
+.admin-panel{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color:#ff9c00;
+    justify-content: space-around;
+    font-size: 1.8em;
+    align-items: center;
+}
+
+
+.notification{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notification i{
+    position: relative;
+    right: 10px;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:800px) {
+    .logo{
+        display: none;
+    }
+    nav{
+        grid-template-columns: 1fr 1fr;
+    }
+}

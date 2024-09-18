@@ -1,0 +1,51 @@
+.feedback {
+    width: 100vw;
+    background-color: whitesmoke;
+    height: max-content;
+    padding-bottom: 30px;
+}
+
+.feedback-title {
+    text-align: center;
+    width: 100vw;
+    background-color: #002147;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.feedback>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.feedback input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.feedback textarea {
+    resize: none;
+    overflow-y: scroll;
+    width: 364px;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.feedback textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+#feedback-tel {
+    width: 364px;
+}
