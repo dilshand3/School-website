@@ -3,7 +3,7 @@ import connnectDB from "./db/db.js";
 
 connnectDB()
 .then(() => {
-   app.listen(process.env.PORT,() => {
+   app.listen(process.env.PORT || 4000,() => {
     console.log(`Server is running on PORT ${process.env.PORT}`)
    })
 })
