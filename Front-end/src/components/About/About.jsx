@@ -16,7 +16,7 @@ const About = () => {
                             <label forImage="Events">Events at DAV</label>
                         </div>
                         <div className="image-label">
-                            <img src={Image.classroom} alt="classroom" />
+                            <img src={Image.Classroom} alt="classroom" />
                             <label forImage="Events">Classroom at DAV</label>
                         </div>
                         <div className="image-label">
