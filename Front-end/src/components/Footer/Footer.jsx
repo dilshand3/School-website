@@ -42,7 +42,7 @@ const Footer = () => {
             <i onClick={() => inst()} className='bx bxl-youtube'></i>
           </div>
         </section>
-        <p id='footer-right'>	&#169; All right reserved to DAV SCHOOL 2024 Ltd. || developed & managed by <Link to="https://dilshan-woad.vercel.app/">dilshan</Link></p>
+        <p id='footer-right'>	&#169; All right reserved to DAV SCHOOL 2024 Ltd. || developed & managed by <Link className="footer-portfolio-url" to="https://dilshan-woad.vercel.app/">dilshan</Link></p>
       </section>
     </>
   )
